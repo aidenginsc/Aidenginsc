@@ -1,0 +1,70 @@
+# Decision Memo: FX Receivable Exposure & Hedging Recommendation
+
+**To:** Chief Financial Officer  
+**From:** [Your Name]  
+**Date:** April 4, 2026  
+**Subject:** EUR Receivable Exposure and Hedging Strategy Consideration  
+
+---
+
+## Exposure Summary
+
+Our firm expects to receive **€500,000 EUR** from a European client on **July 3, 2026** 
+(approximately 90 days from today). At the current spot rate of ~1.09 USD/EUR, this 
+receivable is worth approximately **$545,000 USD**. However, this value is not guaranteed — 
+exchange rate fluctuations between now and the settlement date introduce meaningful risk 
+to our USD proceeds.
+
+---
+
+## Why This Is Risky
+
+If the euro depreciates against the dollar over the next 90 days, we will receive fewer 
+USD than currently projected. For example, a move from 1.09 to 1.04 USD/EUR would reduce 
+our proceeds by approximately **$25,000** — a 4.6% reduction with no change in the 
+underlying business transaction. Given current macroeconomic uncertainty (Fed policy, 
+eurozone inflation, geopolitical factors), this is not an unlikely scenario.
+
+Leaving this exposure unhedged means our USD revenue is effectively a speculative position 
+on EUR/USD exchange rates — inconsistent with our risk management objectives.
+
+---
+
+## Three Hedging Strategies to Consider
+
+**1. Forward Contract**  
+Lock in today's rate for delivery in 90 days.  
+- ✅ Certainty of outcome, no premium cost  
+- ❌ Forfeits upside if EUR strengthens  
+
+**2. FX Options (Put Option on EUR)**  
+Purchase the right (not obligation) to sell EUR at a set rate.  
+- ✅ Protects downside while preserving upside  
+- ❌ Requires upfront premium payment (~1-2% of notional)  
+
+**3. Money Market Hedge**  
+Borrow EUR now, convert to USD at spot, repay with receivable.  
+- ✅ Uses existing banking relationships, no derivatives  
+- ❌ More operationally complex, ties up credit lines  
+
+---
+
+## Next Steps
+
+To make a data-driven recommendation, I will complete the following analysis over the 
+coming weeks:
+
+- **Stage 2 – Excel Model:** Build a working model comparing USD outcomes under each 
+hedge strategy across a range of EUR/USD scenarios at settlement.
+- **Stage 3 – Technical Specification:** Document the model architecture and design an 
+improved version precise enough for systematic or AI-assisted reconstruction.
+- **Stage 4 – Final Recommendation:** Select the optimal hedge based on model outputs, 
+construct a structured AI prompt for scenario analysis, and present findings to 
+leadership.
+
+I will return with a full recommendation and supporting model within two weeks.
+
+---
+
+*Prepared by: Aiden Rector 
+Shidler College of Business*
